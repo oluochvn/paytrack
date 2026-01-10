@@ -1,3 +1,41 @@
 *{
     padding: 0px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    height: 12vh;
+    border-bottom: solid 1px grey;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 32px;
+    list-style-type: none;
+    font-size: 1.1em;
+}
+nav li a:hover{
+    color: grey;
+}
+button{
+    padding: 7px 12px;
+    border: solid 1px grey;
+    margin-left:15px;
+    border-radius: 30px;
+}
+.div{
+    margin-right: 20px;
+}
+.head{
+    margin-left: 2%;
+}
+.btnlight{
+    background-color: white;
+    color: rgb(0, 0, 0);
 }

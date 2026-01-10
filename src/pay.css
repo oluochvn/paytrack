@@ -1,0 +1,8 @@
+*{
+    background-color: black;
+    color: white;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
