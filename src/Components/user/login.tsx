@@ -1,6 +1,7 @@
 
 
 
-function login(){
+function Login(){
 
 }
+export default Login
