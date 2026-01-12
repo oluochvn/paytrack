@@ -1,5 +1,31 @@
 section{
-    height: 70vh;
+    height: 85vh;
     color: white;
     font-size: 1em;
+    align-content: center;
+    text-align: center;
+}
+.slog{
+    text-align: center;
+    font-size: 3.9rem;
+    font-weight: bold;
+    
+}
+.paraslog{
+    text-align: center;
+    margin: 0 25%;
+    padding-top: 2%;
+    font-size: 1.7em;
+    color: grey;
+}
+.btnstart{
+    margin-top: 27px;
+    border-radius: 0%;
+    padding: 10px 14px;
+    font-size: 0.9em;
+}
+.btnstart:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
