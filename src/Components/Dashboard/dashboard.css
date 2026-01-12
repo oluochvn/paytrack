@@ -1,0 +1,80 @@
+.dash{
+    height: 100vh;
+    display: flex;
+    padding: 0px;
+    color: black;
+    background-color: rgb(227, 241, 253);
+    align-content: center;
+}
+.dashaside{
+    flex: 1;
+    padding: 20px;
+    border-right: solid 4px black;
+    text-align: left;
+}
+.dashhead{
+    padding-left: 20px;
+}
+.dashcontent{
+    flex: 5;
+    padding: 20px;
+}
+.dashnav ul{
+    padding-left: 20px;
+    font-size: 1.6em;
+    margin-top: 15%;
+}
+.dashnav li{
+    padding-bottom: 10%;
+    list-style-type: none;
+
+}
+.dashactive{
+    color: green;
+}
+.dashcontent{
+    display: flex;
+    flex-direction: column;
+}
+.dashcard{
+    display: flex;
+    
+}
+.dcard1{
+    margin-top: 5%;
+    margin-left: 1%;
+    border: solid 0.1px rgb(194, 189, 189);
+    padding: 10px;
+    height: 20vh;
+    width: 34vh;
+    border-radius: 12px;
+    background-color: rgb(214, 224, 233);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    margin-right: 1%;
+}
+.amounthead{
+    margin-top: 2%;
+}
+.dashtransaction{
+    margin-left: 1%;
+    margin-top: 4%;
+    height: 40vh;
+}
+.dashtable,td,th{
+    border:1px solid black;
+    padding: 10px;
+}
+.dashtable{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 12px;
+}
+td{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+}
+tr{
+    
+}

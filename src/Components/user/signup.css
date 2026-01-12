@@ -65,12 +65,3 @@
 .paras{
     color: grey;
 }
-.mainlog{
-    flex: 2;
-    margin-left: 15%;
-    height: auto;
-}
-.contentlog{
-    margin-right: 15%;
-    height: auto;
-}

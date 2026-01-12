@@ -1,9 +1,10 @@
 import './nav.css'
+import { Link } from 'react-router-dom';
 
 function Nav(){
 
     return(
-        <nav>
+        <nav className='nav'>
             <h1 className='head'><span className='headp'>Pay</span>track</h1>
             <ul>
                 <li><a href="">Features</a></li>
@@ -11,8 +12,8 @@ function Nav(){
                 <li><a href="">Pricing</a></li>
             </ul>
             <div className='div'>
-            <button><a href="">Register</a></button>
-            <a href=""><button className='btnlight'>login</button></a>
+            <button className='btnnav'><Link to="/login">Login</Link></button>
+            <button className='btnlight'><Link to="/signup">Signup</Link></button>
             </div>
         </nav>
     )
